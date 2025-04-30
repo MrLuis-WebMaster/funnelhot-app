@@ -1,5 +1,5 @@
-import { NextRequest, NextResponse } from 'next/server';
-import { routes } from './src/config/routes';
+import { type NextRequest, NextResponse } from 'next/server';
+import { routes } from './config/routes';
 
 function isProtected(pathname: string): boolean {
     return routes.protected.some((route) => pathname.startsWith(route));
@@ -25,5 +25,8 @@ export function middleware(req: NextRequest) {
 }
 
 export const config = {
-    matcher: ['/((?!_next|api|favicon.ico).*)'],
+    matcher: [
+        '/((?!_next/static|_next/image|favicon.ico|.*\\..*|api).*)',
+    ],
 };
+
