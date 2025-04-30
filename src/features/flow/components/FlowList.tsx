@@ -32,8 +32,8 @@ export default function FlowList() {
         <List>
             {flows.map((flow) => (
                 <ListItem key={flow.id} disablePadding>
-                    <Link href={`/dashboard/flow/${flow.id}`} passHref legacyBehavior>
-                        <ListItemButton component="a">
+                    <Link href={`/dashboard/flow/${flow.id}`}>
+                        <ListItemButton>
                             <ListItemText
                                 primary={flow.section1.title}
                                 secondary={new Date(flow.createdAt).toLocaleString()}
