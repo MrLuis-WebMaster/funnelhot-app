@@ -1,0 +1,36 @@
+[
+  {
+    "id": "c2189dc3-f9a5-4756-9377-9c47e13443f1",
+    "section1": {
+      "title": "📄 Onboarding inicial",
+      "description": "Este paso explica al usuario cómo funciona la plataforma y qué puede esperar."
+    },
+    "section2": {
+      "mediaTitle": "Imagen de bienvenida",
+      "mediaUrl": "https://placehold.co/600x300/87ceeb/000?text=¡Bienvenido!"
+    },
+    "section3": {
+      "actionText": "Ir al panel principal",
+      "actionUrl": "http://localhost:3000/dashboard"
+    },
+    "createdAt": "2025-04-30T18:53:34.289Z",
+    "updatedAt": "2025-04-30T18:58:54.682Z"
+  },
+  {
+    "id": "caa0cb26-52ad-44f4-a515-ab00009a17eb",
+    "section1": {
+      "title": "📄 Validación de datos",
+      "description": "Revisa si el usuario completó su perfil correctamente antes de continuar."
+    },
+    "section2": {
+      "mediaTitle": "Captura de ejemplo",
+      "mediaUrl": "https://placehold.co/600x300/f08080/000?text=Verifica+tu+perfil"
+    },
+    "section3": {
+      "actionText": "Completar perfil",
+      "actionUrl": "http://localhost:3000/dashboard/flow/new"
+    },
+    "createdAt": "2025-04-30T19:04:27.795Z",
+    "updatedAt": "2025-04-30T19:42:50.308Z"
+  }
+]
